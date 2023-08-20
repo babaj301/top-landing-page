@@ -1,0 +1,144 @@
+.right-part img {
+  width: 200px;
+  align-items: flex-end;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.logo {
+  height: 60px;
+}
+
+.logo-head {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 48px;
+  align-items: center;
+}
+.header p {
+  color: rgb(253, 185, 39);
+  font-size: 32px;
+  font-family: "Love Light", cursive;
+}
+
+.links {
+  display: flex;
+  gap: 12px;
+  list-style-type: none;
+  color: rgb(253, 185, 39);
+  padding-right: 48px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.mid {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 48px;
+  color: white;
+}
+
+.bold-text {
+  font-size: 48px;
+  width: 250px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.italic-text {
+  font-size: 48px;
+  margin-top: 0px;
+  font-family: "Love Light", cursive;
+}
+
+.explore {
+  padding: 12px 32px;
+  border-radius: 12px;
+  color: rgb(253, 185, 39);
+  background-color: black;
+  border: 2px solid rgb(253, 185, 39);
+  color: white;
+  font-size: 16px;
+}
+
+/* Middle Section Design */
+.middle-section {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: rgb(253, 185, 39);
+  border-top: 2px solid;
+}
+
+.pic-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.image img {
+  height: 200px;
+  width: 160px;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 24px;
+}
+.image .small-text {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0;
+}
+.medium-text {
+  font-size: 36px;
+  text-align: center;
+  text-decoration: underline;
+}
+.smaller {
+  font-size: 16px;
+  margin: 0;
+  margin-top: 4px;
+  width: 80px;
+  text-align: center;
+  color: white;
+}
+
+.third-section {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.kobe-quote {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 32px;
+  font-weight: 200;
+  font-family: "Love Light", cursive;
+  color: white;
+  width: 900px;
+  margin-top: 40px;
+}
+
+.author {
+  font-size: 24px;
+  font-family: cursive;
+  font-style: italic;
+}
